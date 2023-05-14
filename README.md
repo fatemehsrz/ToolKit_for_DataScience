@@ -2,5 +2,5 @@
 A toolkit for data visualization, data loading and converting, and other utilities
 
 
-**Demo**
+**Multiple Charts**
 ![plot](./demo.png)
