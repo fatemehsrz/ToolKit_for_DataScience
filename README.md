@@ -5,5 +5,5 @@ A toolkit for data visualization, data loading and converting, and other utiliti
 **Multiple Line Charts**
 ![plot](./demo.png)
 
-**Multiple bar Charts**
+**Multiple Bar Charts**
 ![plot](./barchart.png)
