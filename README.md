@@ -6,7 +6,7 @@ A toolkit for data visualization, data loading and converting, and other utiliti
 ![plot](./demo.png)
 
 **Multiple Bar Charts**
-![plot](./barchart.png)
+![plot](./bar_chart.png)
 
 **Multiple Distribution Charts**
 ![plot](./distchart.png)
