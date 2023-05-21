@@ -9,7 +9,7 @@ A toolkit for data visualization, data loading and converting, and other utiliti
 ![plot](./bar_chart.png)
 
 **Multiple Distribution Charts**
-![plot](./distchart.png)
+![plot](./dist_chart.png)
 
 **Multiple Box Charts**
 ![plot](./boxchart.png)
