@@ -11,5 +11,5 @@ A toolkit for data visualization, data loading and converting, and other utiliti
 **Multiple Distribution Charts**
 ![plot](./distchart.png)
 
-**Multiple Bar Charts**
+**Multiple Box Charts**
 ![plot](./boxchart.png)
