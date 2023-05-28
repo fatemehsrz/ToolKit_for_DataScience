@@ -3,27 +3,27 @@ A toolkit for data visualization, data loading and converting, and other utiliti
 
 
 **Multiple Line Charts**
-![plot](./demo.png)
+![plot](./charts/demo.png)
 
 **Multiple Bar Charts**
-![plot](./bar_chart.png)
+![plot](./charts/bar_chart.png)
 
 **Multiple Distribution Charts**
-![plot](./dist_chart.png)
+![plot](./charts/dist_chart.png)
 
 **Multiple Box Charts**
-![plot](./boxchart.png)
+![plot](./charts/boxchart.png)
 
 **Time Series Visualization**
-![plot](./1.png)
+![plot](./charts/0.png)
 
 
 **Correlation Heatmap**
-![plot](./corr1.png)
+![plot](./charts/corr1.png)
 
 **Feature Importance**
-![plot](./imp.png)
+![plot](./charts/imp.png)
 
 **Missing Values in each Column**
-![plot](./miss.png)
+![plot](./charts/miss.png)
 
