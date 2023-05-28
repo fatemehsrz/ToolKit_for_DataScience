@@ -3,7 +3,7 @@ A toolkit for data visualization, data loading and converting, and other utiliti
 
 
 **Multiple Line Charts**
-![plot](./charts/line_chart2.png)
+![plot](./charts/line_chart3.png)
 
 **Multiple Bar Charts**
 ![plot](./charts/bar_chart.png)
@@ -19,7 +19,7 @@ A toolkit for data visualization, data loading and converting, and other utiliti
 
 
 **Correlation Heatmap**
-![plot](./charts/corr4.png)
+![plot](./charts/corr5.png)
 
 **Feature Importance**
 ![plot](./charts/imp.png)
