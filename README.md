@@ -20,7 +20,7 @@ The time series dataset is from [Kaggle](https://www.kaggle.com/datasets/nphanta
 
 
 **Correlation Heatmap**
-![plot](./charts/corr5.png)
+![plot](./charts/corr6.png)
 
 **Multiple Distribution Charts**
 ![plot](./charts/dist_chart.png)
