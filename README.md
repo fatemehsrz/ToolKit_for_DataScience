@@ -13,3 +13,17 @@ A toolkit for data visualization, data loading and converting, and other utiliti
 
 **Multiple Box Charts**
 ![plot](./boxchart.png)
+
+**Time Series Visualization**
+![plot](./1.png)
+
+
+**Correlation Heatmap**
+![plot](./corr1.png)
+
+**Feature Importance**
+![plot](./imp.png)
+
+**Missing Values in each Column**
+![plot](./miss.png)
+
