@@ -1,5 +1,6 @@
-# ToolKit_for_DataScience
-A toolkit for data visualization, data loading and converting, and other utilities. 
+# A toolkit for data visualization, data loading and converting, and other utilities. 
+
+Time series dataset from [Kaggle](https://www.kaggle.com/datasets/nphantawee/pump-sensor-data) 
 
 
 **Multiple Line Charts**
@@ -8,7 +9,7 @@ A toolkit for data visualization, data loading and converting, and other utiliti
 **Multiple Bar Charts**
 ![plot](./charts/bar_chart.png)
 
-Time series dataset from [Kaggle](https://www.kaggle.com/datasets/nphantawee/pump-sensor-data) 
+
 **Time Series Visualization**
 ![plot](./charts/0.png)
 
