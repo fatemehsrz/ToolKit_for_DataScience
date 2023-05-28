@@ -7,6 +7,12 @@ A toolkit for data visualization, data loading and converting, and other utiliti
 
 **Multiple Bar Charts**
 ![plot](./charts/bar_chart.png)
+**Time Series Visualization**
+![plot](./charts/0.png)
+
+
+**Correlation Heatmap**
+![plot](./charts/corr5.png)
 
 **Multiple Distribution Charts**
 ![plot](./charts/dist_chart.png)
@@ -14,12 +20,7 @@ A toolkit for data visualization, data loading and converting, and other utiliti
 **Multiple Box Charts**
 ![plot](./charts/boxchart.png)
 
-**Time Series Visualization**
-![plot](./charts/0.png)
 
-
-**Correlation Heatmap**
-![plot](./charts/corr5.png)
 
 **Feature Importance**
 ![plot](./charts/imp.png)
