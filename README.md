@@ -1,4 +1,4 @@
-### A toolkit for data visualization, data loading and converting, and other utilities. 
+A toolkit for Data Science. Time series dataset can be found on [Kaggle](https://www.kaggle.com/datasets/nphantawee/pump-sensor-data) 
 
 
 
@@ -10,7 +10,7 @@
 ![plot](./charts/bar_chart.png)
 
 
-Time series dataset from [Kaggle](https://www.kaggle.com/datasets/nphantawee/pump-sensor-data) 
+
 
 
 **Time Series Visualization**
