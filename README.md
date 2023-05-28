@@ -1,6 +1,6 @@
 # ToolKit_for_DataScience
 
-Time series dataset is from [Kaggle](https://www.kaggle.com/datasets/nphantawee/pump-sensor-data). 
+The time series dataset is from [Kaggle](https://www.kaggle.com/datasets/nphantawee/pump-sensor-data). 
 
 
 
