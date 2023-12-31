@@ -8,7 +8,7 @@ The time series dataset is from [Kaggle](https://www.kaggle.com/datasets/nphanta
 
 
 
-**TSNE Words**
+**TSNE Customer Visualization**
 ![plot](./charts/words.png)
 
 
