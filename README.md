@@ -1,6 +1,5 @@
 # ToolKit_for_DataScience
 
-The time series dataset is from [Kaggle](https://www.kaggle.com/datasets/nphantawee/pump-sensor-data). 
 
 
 **TSNE Clusters**
@@ -24,6 +23,7 @@ The time series dataset is from [Kaggle](https://www.kaggle.com/datasets/nphanta
 
 
 
+The time series dataset is from [Kaggle](https://www.kaggle.com/datasets/nphantawee/pump-sensor-data). 
 
 
 **Time Series Visualization**
