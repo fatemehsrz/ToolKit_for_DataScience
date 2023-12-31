@@ -3,6 +3,15 @@
 The time series dataset is from [Kaggle](https://www.kaggle.com/datasets/nphantawee/pump-sensor-data). 
 
 
+**TSNE Words**
+![plot](./charts/tsne-words.png)
+
+**TSNE Clusters**
+![plot](./charts/tsne-clusers.png)
+
+**Silhouette Scores**
+![plot](./charts/cl2.png)
+
 
 
 **Multiple Line Charts**
