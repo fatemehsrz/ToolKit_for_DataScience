@@ -11,6 +11,7 @@
 ![plot](./charts/ml.png)
 
 **Compare Item Distribution**
+![plot](./charts/dist4.png)
 ![plot](./charts/compare.png)
 ![plot](./charts/col3.png)
 ![plot](./charts/line3.png)
