@@ -4,7 +4,7 @@
 ![plot](./charts/shap2.png)
 ![plot](./charts/shap5.png)
 
-**pairwise Correlation**
+**Pairwise Correlation**
 ![plot](./charts/co.png)
 
 **BERT with Auxiliary Features**
