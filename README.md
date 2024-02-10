@@ -1,16 +1,16 @@
 # ToolKit_for_DataScience
 
-**Shap for feature importance**
+**Shap for Feature Importance**
 ![plot](./charts/shap2.png)
 
 
-**pairwise correlation**
+**pairwise Correlation**
 ![plot](./charts/co.png)
 
-**BERT with Auxilary Features**
+**BERT with Auxiliary Features**
 ![plot](./charts/ml.png)
 
-**Compare item Distribution**
+**Compare Item Distribution**
 ![plot](./charts/compare.png)
 
 **TSNE Clusters**
