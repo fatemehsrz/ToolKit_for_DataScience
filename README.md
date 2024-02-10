@@ -2,7 +2,7 @@
 
 **Shap for Feature Importance**
 ![plot](./charts/shap2.png)
-
+![plot](./charts/shap3.png)
 
 **pairwise Correlation**
 ![plot](./charts/co.png)
@@ -12,6 +12,8 @@
 
 **Compare Item Distribution**
 ![plot](./charts/compare.png)
+![plot](./charts/col3.png)
+![plot](./charts/line3.png)
 
 **TSNE Clusters**
 ![plot](./charts/cls3.png)
@@ -32,7 +34,8 @@
 **Multiple Bar Charts**
 ![plot](./charts/bar_chart.png)
 
-
+**Missing Values in each Column**
+![plot](./charts/out3.png)
 
 The time series dataset is from [Kaggle](https://www.kaggle.com/datasets/nphantawee/pump-sensor-data). 
 
@@ -55,6 +58,5 @@ The time series dataset is from [Kaggle](https://www.kaggle.com/datasets/nphanta
 **Feature Importance**
 ![plot](./charts/imp.png)
 
-**Missing Values in each Column**
-![plot](./charts/miss.png)
+
 
