@@ -35,7 +35,7 @@
 ![plot](./charts/bar_chart.png)
 
 **Missing Values in each Column**
-![plot](./charts/out3.png)
+![plot](./charts/out2.png)
 
 The time series dataset is from [Kaggle](https://www.kaggle.com/datasets/nphantawee/pump-sensor-data). 
 
