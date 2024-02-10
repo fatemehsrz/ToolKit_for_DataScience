@@ -4,6 +4,10 @@
 ![plot](./charts/shap2.png)
 ![plot](./charts/shap5.png)
 
+**BERT with Auxiliary Features**
+![plot](./charts/ml.png)
+
+
 **Pairwise Correlation**
 ![plot](./charts/co.png)
 
@@ -34,8 +38,6 @@
 **Multiple Bar Charts**
 ![plot](./charts/bar_chart.png)
 
-**BERT with Auxiliary Features**
-![plot](./charts/ml.png)
 
 **Missing Values in each Column**
 ![plot](./charts/out2.png)
