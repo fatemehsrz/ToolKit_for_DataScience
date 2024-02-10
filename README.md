@@ -7,8 +7,7 @@
 **Pairwise Correlation**
 ![plot](./charts/co.png)
 
-**BERT with Auxiliary Features**
-![plot](./charts/ml.png)
+
 
 **Compare Item Distribution**
 ![plot](./charts/dist4.png)
@@ -34,6 +33,9 @@
 
 **Multiple Bar Charts**
 ![plot](./charts/bar_chart.png)
+
+**BERT with Auxiliary Features**
+![plot](./charts/ml.png)
 
 **Missing Values in each Column**
 ![plot](./charts/out2.png)
