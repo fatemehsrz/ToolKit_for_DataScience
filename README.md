@@ -1,4 +1,4 @@
-## The code for the following charts is available in the notebooks folder
+### The code for the following charts is available in the notebooks folder
 
 **Shap for Feature Importance**
 ![plot](./charts/shap2.png)
