@@ -1,5 +1,7 @@
 # ToolKit_for_DataScience
 
+**The code for the following charts is avaible in the notebooks folder.**
+
 **Shap for Feature Importance**
 ![plot](./charts/shap2.png)
 ![plot](./charts/shap5.png)
