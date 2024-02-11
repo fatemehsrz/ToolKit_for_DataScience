@@ -1,5 +1,8 @@
 ### The code for the following charts is available in the notebooks folder
 
+<br>
+<br>
+
 **Shap for Feature Importance**
 ![plot](./charts/shap2.png)
 ![plot](./charts/shap5.png)
