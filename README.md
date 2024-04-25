@@ -3,6 +3,9 @@
 <br>
 <br>
 
+**Chatbot for Dog Tax**
+![plot](./charts/chatbot.png)
+
 **Shap for Feature Importance**
 ![plot](./charts/shap2.png)
 ![plot](./charts/shap5.png)
