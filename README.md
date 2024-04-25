@@ -1,10 +1,10 @@
-### The code for the following charts is available in the notebooks folder
+### The code is available in the notebooks folder
 
 <br>
 <br>
 
 **Chatbot for Dog Tax**
-![plot](./charts/chatbot.png)
+![plot](./charts/chat.png)
 
 **Shap for Feature Importance**
 ![plot](./charts/shap2.png)
