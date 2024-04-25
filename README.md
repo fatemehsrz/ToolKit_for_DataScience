@@ -1,4 +1,4 @@
-### The code is available in the notebooks folder
+### Please find the code in the notebooks folder
 
 <br>
 <br>
