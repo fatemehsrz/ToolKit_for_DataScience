@@ -1,7 +1,3 @@
-### Please find the code in the notebooks folder
-
-<br>
-<br>
 
 **Chatbot for Dog Tax**
 ![plot](./charts/chat.png)
