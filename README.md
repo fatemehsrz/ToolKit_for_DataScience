@@ -1,6 +1,4 @@
 
-## Chatbot for Dog Tax System
-![plot](./charts/chat4.png)
 
 ## Shap for Feature Importance
 ![plot](./charts/shap2.png)
@@ -9,16 +7,6 @@
 ## BERT with Auxiliary Features
 ![plot](./charts/ml.png)
 
-
-## Pairwise Correlation
-![plot](./charts/co.png)
-
-
-## Compare Item Distribution
-![plot](./charts/dist4.png)
-![plot](./charts/compare.png)
-![plot](./charts/col3.png)
-![plot](./charts/line3.png)
 
 ## TSNE Clusters
 ![plot](./charts/cls3.png)
@@ -31,6 +19,15 @@
 ## Silhouette Scores
 ![plot](./charts/cls4.png)
 
+## Pairwise Correlation
+![plot](./charts/co.png)
+
+
+## Compare Item Distribution
+![plot](./charts/dist4.png)
+![plot](./charts/compare.png)
+![plot](./charts/col3.png)
+![plot](./charts/line3.png)
 
 ## Multiple Line Charts
 ![plot](./charts/line_chart3.png)
@@ -61,6 +58,10 @@ The time series dataset is from [Kaggle](https://www.kaggle.com/datasets/nphanta
 
 ## Feature Importance
 ![plot](./charts/imp.png)
+
+
+## Chatbot for Dog Tax System
+![plot](./charts/chat4.png)
 
 
 
