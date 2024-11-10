@@ -45,3 +45,26 @@ plt.xlabel('Number of Courses')
 plt.ylabel('Probability Density')
 plt.show()
 
+from functools import *
+
+def power(exponent, base):
+    return base ** exponent
+ 
+square = partial(power, 2) # setting value of exponent to 2
+cube = partial(power, 3) # setting value of exponent to 3
+
+print("The square of 5 is", square(5))
+print("The cube of 7 is", cube(7))
+The square of 5 is 25
+The cube of 7 is 343
+from functools import *
+
+def print_msg(name, message):
+    msg = str(name) +", "+ str(message)
+    return msg
+
+welcome = partial(print_msg, message='Welcome to the Team!') #setting the welcome message
+holidays = partial(print_msg, message='Happy Holidays!')
+
+print(welcome('Sourish'))
+print(holidays('Shubhrima'))
