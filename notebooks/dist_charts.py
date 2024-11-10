@@ -103,3 +103,12 @@ shap.initjs()
 shap.summary_plot(shap_values, X_test)
 
 
+plt.figure(figsize=(12, 7))
+plt.title('Feature Importance with XGBoost (Bank 125)')
+model = xgboost.XGBClassifier().fit(X, y)
+explainer = shap.Explainer(model)
+shap_values = explainer(X)
+#shap.plots.beeswarm(shap_values)
+shap.plots.scatter(shap_values[:, 'btr_haben_vj_sld'], color=shap_values[:, "btr_kk_h_sld_min"])
+
+
