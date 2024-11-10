@@ -32,3 +32,16 @@ plt.xlabel('Days of week')
 plt.ylabel('Number of Enrollments')
 plt.show()
 
+
+# Count the number of courses per person in df_new
+courses_per_person = df_new.groupby('Personen-ID')['Kursnummer'].nunique()
+courses_per_person_df = courses_per_person.reset_index(name='Number of Courses')
+
+# Plot the distribution of the number of courses per person
+plt.figure(figsize=(10, 6))
+sns.histplot(courses_per_person_df['Number of Courses'], color="purple", bins=30, kde=True, common_norm=True)
+plt.title('Distribution of Number of Courses per Person (df_new)')
+plt.xlabel('Number of Courses')
+plt.ylabel('Probability Density')
+plt.show()
+
