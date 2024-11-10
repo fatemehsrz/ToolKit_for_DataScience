@@ -33,6 +33,30 @@ plt.ylabel('Number of Enrollments')
 plt.show()
 
 
+from scipy.stats import probplot, skew
+
+# Loop through each numeric column
+for column in df_feat.columns:
+    fig, axes = plt.subplots(1, 3, figsize=(20, 4))
+
+    # Distribution plot
+    sns.histplot(df_feat[column], kde=False, ax=axes[0])
+    axes[0].set_title(f"{column} | Distribution Plot")
+
+    # Boxplot
+    sns.boxplot(df_feat[column], ax=axes[1])
+    axes[1].set_title(f"{column} | Boxplot")
+    axes[1].set_yticklabels([])
+    axes[1].set_yticks([])
+
+    # Probability plot
+    probplot(df_feat[column], plot=axes[2])
+    skew_val = round(df_feat[column].skew(), 1)
+    axes[2].set_title(f"{column} | Probability Plot - Skew: {skew_val}")
+
+    # Display the plots
+    plt.show()
+
 # Count the number of courses per person in df_new
 courses_per_person = df_new.groupby('Personen-ID')['Kursnummer'].nunique()
 courses_per_person_df = courses_per_person.reset_index(name='Number of Courses')
