@@ -1,4 +1,24 @@
 
+from functools import *
+
+def power(exponent, base):
+    return base ** exponent
+ 
+square = partial(power, 2) # setting value of exponent to 2
+cube = partial(power, 3) # setting value of exponent to 3
+print("The square of 5 is", square(5))
+print("The cube of 7 is", cube(7))
+
+def print_msg(name, message):
+    msg = str(name) +", "+ str(message)
+    return msg
+
+welcome = partial(print_msg, message='Welcome to the Team!') #setting the welcome message
+holidays = partial(print_msg, message='Happy Holidays!')
+print(welcome('Sourish'))
+print(holidays('Shubhrima'))
+
+
 from scipy.stats import probplot, skew
 
 # Loop through each numeric column
@@ -69,21 +89,17 @@ plt.xlabel('Number of Courses')
 plt.ylabel('Probability Density')
 plt.show()
 
-from functools import *
 
-def power(exponent, base):
-    return base ** exponent
- 
-square = partial(power, 2) # setting value of exponent to 2
-cube = partial(power, 3) # setting value of exponent to 3
-print("The square of 5 is", square(5))
-print("The cube of 7 is", cube(7))
+import sklearn.tree
+from sklearn.model_selection import train_test_split
+X_train, X_test, y_train, y_test = train_test_split(X[, y, test_size=0.2, random_state=0)
 
-def print_msg(name, message):
-    msg = str(name) +", "+ str(message)
-    return msg
+X_test_summary = shap.kmeans(X_test, 50)
+dtree = sklearn.tree.DecisionTreeClassifier(min_samples_split=2)
+dtree.fit(X_train, y_train)
+explainer = shap.KernelExplainer(dtree.predict_proba,  X_test_summary)
+shap_values = explainer.shap_values(X_test)
+shap.initjs()
+shap.summary_plot(shap_values, X_test)
 
-welcome = partial(print_msg, message='Welcome to the Team!') #setting the welcome message
-holidays = partial(print_msg, message='Happy Holidays!')
-print(welcome('Sourish'))
-print(holidays('Shubhrima'))
+
