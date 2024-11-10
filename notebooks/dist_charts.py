@@ -22,3 +22,13 @@ for column in numeric_columns:
 
     # Display the plots
     plt.show()
+
+
+daily_counts = df_new['Day'].value_counts().sort_index()
+plt.figure(figsize=(10, 6))
+sns.barplot(x=daily_counts.index, y=daily_counts.values)
+plt.title('Course Enrollments by day')
+plt.xlabel('Days of week')
+plt.ylabel('Number of Enrollments')
+plt.show()
+
