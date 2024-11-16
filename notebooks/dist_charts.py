@@ -112,3 +112,42 @@ shap_values = explainer(X)
 shap.plots.scatter(shap_values[:, 'btr_haben_vj_sld'], color=shap_values[:, "btr_kk_h_sld_min"])
 
 
+from sklearn.manifold import TSNE
+import warnings
+warnings.filterwarnings('ignore')
+
+def tsne_plot(vec_matrix, idxs, title=None):
+    
+    labels = []
+    tokens = []
+
+    for idx in idxs:
+        
+        tokens.append(vec_matrix[idx])
+        labels.append(id2Cust[idx])
+    
+    tsne_model = TSNE(perplexity=len(tokens)-1, n_components=2, init='pca', n_iter=2500, random_state=23)
+    new_values = tsne_model.fit_transform(np.array(tokens))
+
+    x = []
+    y = []
+    for value in new_values:
+        x.append(value[0])
+        y.append(value[1])
+        
+    plt.figure(figsize=(16, 10)) 
+    plt.title(title, fontsize="18")
+    plt.rcParams["patch.force_edgecolor"] = True
+    #plt.style.use('fivethirtyeight')
+    #plt.rc('patch', edgecolor = 'dimgray', linewidth=1)
+    for i in range(len(x)):
+        plt.scatter(x[i],y[i])
+        plt.annotate(labels[i],
+                     xy=(x[i], y[i]),
+                     xytext=(5, 2),
+                     textcoords='offset points',
+                     ha='right',
+                     va='bottom')
+        
+    
+    plt.show()
